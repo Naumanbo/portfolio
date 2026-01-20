@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Nauman | Projects</title>
+  <meta name="description" content="Project portfolio."/>
+  <link rel="stylesheet" href="../assets/style.css"/>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary">
+      <a class="brand" href="../index.html">Nauman</a>
+      <div class="nav-links">
+        <a href="../index.html">About</a>
+        <a href="../resume.html">Resume</a>
+        <a aria-current="page" href="index.html">Projects</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <h1 style="margin-top:4px">Projects</h1>
+    <p class="prose">
+      Below are a few representative projects that show my range: immersive interactive systems, mobile + AI features,
+      and distributed processing with careful attention to reliability.
+    </p>
+
+    <section class="grid" aria-label="Project cards">
+      <article class="card">
+        <img class="card-img" src="../assets/img/vr.svg" alt="Placeholder graphic for VR project"/>
+        <div class="card-body">
+          <h2 class="card-title">DoseBusters (VR)</h2>
+          <p class="prose">Unity-based VR gameplay focused on radiation shielding and interactive learning mechanics.</p>
+          <p class="tag">Unity • C# • Blender</p>
+          <p><a href="dosebusters.html">Read more →</a></p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img class="card-img" src="../assets/img/app.svg" alt="Placeholder graphic for app and AI project"/>
+        <div class="card-body">
+          <h2 class="card-title">M-Navigate</h2>
+          <p class="prose">A Flutter app with an LLM-powered campus navigation assistant and speech-to-text UI.</p>
+          <p class="tag">Flutter • Dart • LLM API • AWS</p>
+          <p><a href="m-navigate.html">Read more →</a></p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img class="card-img" src="../assets/img/mapreduce.svg" alt="Placeholder graphic for distributed systems project"/>
+        <div class="card-body">
+          <h2 class="card-title">MapReduce-style framework</h2>
+          <p class="prose">A Python MapReduce runner inspired by Google’s model with fault tolerance and concurrency.</p>
+          <p class="tag">Python • Threads/Processes • Sockets</p>
+          <p><a href="mapreduce.html">Read more →</a></p>
+        </div>
+      </article>
+    </section>
+
+    <section class="section">
+      <h2>How to read these pages</h2>
+      <div class="panel">
+        <ul class="tight">
+          <li><strong>Problem</strong>: what I was trying to build and why it mattered.</li>
+          <li><strong>Approach</strong>: key design choices and trade-offs.</li>
+          <li><strong>Results</strong>: measurable outcomes when possible.</li>
+          <li><strong>What I learned</strong>: how it improved my engineering habits.</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="note">Tip: replace the placeholder SVGs with screenshots (PNG/JPG) in <code>assets/img/</code> if you want.</p>
+      <p class="note">© <span id="y"></span> Nauman.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

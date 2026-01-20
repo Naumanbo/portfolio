@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Nauman | Resume</title>
+  <meta name="description" content="Resume (rendered natively in HTML)."/>
+  <link rel="stylesheet" href="assets/style.css"/>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary">
+      <a class="brand" href="index.html">Nauman</a>
+      <div class="nav-links">
+        <a href="index.html">About</a>
+        <a aria-current="page" href="resume.html">Resume</a>
+        <a href="projects/index.html">Projects</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <section class="card">
+      <h1 style="margin-top:0">Resume</h1>
+      <p class="note">
+        This page is a web-native version of my resume (no embedded PDF). It is formatted to match the rest of the site
+        and excludes personal identifiers for privacy.
+      </p>
+
+      <hr class="rule"/>
+
+      <h2>Education</h2>
+      <div class="subgrid">
+        <div>
+          <h3 style="margin:0">University of Michigan — Ann Arbor</h3>
+          <p class="meta">B.S.E. Computer Science • Fall 2022 – Present</p>
+          <p class="prose">Coursework: data structures & algorithms, web systems, software engineering, security, AI/ML, databases, UI development.</p>
+        </div>
+        <div>
+          <h3 style="margin:0">DIS Stockholm — Study Abroad</h3>
+          <p class="meta">Winter 2025</p>
+          <p class="prose">Focus: Machine Learning, Artificial Intelligence, and Scandinavian design principles.</p>
+        </div>
+      </div>
+
+      <hr class="rule"/>
+
+      <h2>Experience</h2>
+
+      <h3>Michigan Blockchain</h3>
+      <p class="meta">Cohort Member • Sep 2025 – Present</p>
+      <ul>
+        <li>Hands-on experience in blockchain consulting and development across DeFi, digital identity, and tokenization through client-focused research and prototypes.</li>
+        <li>Collaborate on research and recommendations around EigenLayer restaking infrastructure for clients exploring scalable, secure blockchain solutions.</li>
+        <li>Contribute to software development by building smart contracts and DApps, applying backend and data engineering skills.</li>
+      </ul>
+
+      <h3>Michigan Drone Technology</h3>
+      <p class="meta">Data Engineering Team Lead • Nov 2022 – Present</p>
+      <ul>
+        <li>Led a small team building a TensorFlow-based voice-activated system (NLP) to test autonomous navigation workflows via voice commands in simulated search-and-rescue missions.</li>
+        <li>Designed schematics for a custom flight controller by researching components and integrating them into PCBs.</li>
+        <li>Developed embedded firmware in C with real-time diagnostics to calibrate onboard sensors, improving accuracy and stability.</li>
+      </ul>
+
+      <h3>Radiation Health Engineering Lab</h3>
+      <p class="meta">Research Assistant • Aug 2023 – Sep 2024</p>
+      <ul>
+        <li>Built a Unity tool to procedurally render floor plans, speeding up creation of radiation shielding levels.</li>
+        <li>Created a C# library for fast objective + map-layout authoring across levels, reducing repeated workflows.</li>
+        <li>Refactored a large legacy C# codebase by analyzing dependencies and modernizing hot paths to improve maintainability and performance on VR hardware.</li>
+      </ul>
+
+      <hr class="rule"/>
+
+      <h2>Selected Projects</h2>
+      <p class="note">Each project below links to a full writeup in the portfolio section.</p>
+
+      <h3><a href="projects/dosebusters.html">DoseBusters (VR)</a></h3>
+      <p class="meta">Unity, C#, Blender • Aug 2023 – Sep 2024</p>
+      <ul>
+        <li>Developed core VR mechanics including radiation shielding, dosimetry, and NPC interactions; used integration testing to resolve bugs and improve engagement.</li>
+        <li>Built an in-game tablet for navigation and objective tracking with maintainable scripts and documentation, improving onboarding and user navigation.</li>
+        <li>Designed a procedurally generated shielding mini-game that increased engagement through dynamic levels.</li>
+      </ul>
+
+      <h3><a href="projects/m-navigate.html">M‑Navigate</a></h3>
+      <p class="meta">Dart, Flutter, ChatGPT API • Sep 2023 – Dec 2023</p>
+      <ul>
+        <li>Prompt-engineered a chatbot using public university data (courses, rooms, building layouts) to help students build schedules and navigate to classrooms.</li>
+        <li>Integrated the chatbot into a Flutter UI with speech-to-text and map views to support real-time navigation and accessibility.</li>
+        <li>Hosted an AWS EC2 backend with MongoDB to process API requests and deliver tailored responses.</li>
+      </ul>
+
+      <h3><a href="projects/mapreduce.html">MapReduce-style Framework</a></h3>
+      <p class="meta">Python, threads/processes, sockets • (course project)</p>
+      <ul>
+        <li>Implemented a MapReduce runner inspired by Google’s model: map/reduce program execution, worker coordination, and fault tolerance.</li>
+        <li>Added concurrency with threads/processes and networking with sockets for distributed processing across workers.</li>
+      </ul>
+
+      <hr class="rule"/>
+
+      <h2>Technical Skills</h2>
+      <div class="subgrid">
+        <div>
+          <h3 style="margin-top:0">Languages</h3>
+          <p class="prose">C, C#, C++, Bash/Shell, Dart, HTML/CSS, JavaScript, LaTeX, MATLAB, Python, React, SQL</p>
+        </div>
+        <div>
+          <h3 style="margin-top:0">Tools & Frameworks</h3>
+          <p class="prose">Git/GitHub, Docker, Linux, AWS, Flask, Flutter, TensorFlow, PyTorch, Unity, Unreal Engine, Android Studio, Blender, JUnit/NUnit, Pytest</p>
+        </div>
+      </div>
+
+
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="note">© <span id="y"></span> Nauman. <a href="index.html">About</a> • <a href="projects/index.html">Projects</a></p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

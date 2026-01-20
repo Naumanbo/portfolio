@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7aa7ff" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#7dffda" stop-opacity="0.75"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="500" fill="#0b1020"/>
+  <rect x="60" y="60" width="780" height="380" rx="28" fill="#101a33" stroke="rgba(233,238,252,.18)"/>
+  <circle cx="240" cy="250" r="110" fill="url(#g)"/>
+  <rect x="380" y="170" width="390" height="40" rx="12" fill="rgba(233,238,252,.10)"/>
+  <rect x="380" y="230" width="330" height="40" rx="12" fill="rgba(233,238,252,.10)"/>
+  <rect x="380" y="290" width="300" height="40" rx="12" fill="rgba(233,238,252,.10)"/>
+  <text x="100" y="115" fill="#e9eefc" font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="26" font-weight="700">VR Project Snapshot</text>
+  <text x="100" y="148" fill="#b9c4e6" font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="16">Placeholder graphic (replace with screenshots if you want)</text>
+</svg>

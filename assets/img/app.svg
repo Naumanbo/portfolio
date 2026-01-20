@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7dffda" stop-opacity="0.80"/>
+      <stop offset="1" stop-color="#7aa7ff" stop-opacity="0.80"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="500" fill="#0b1020"/>
+  <rect x="90" y="70" width="720" height="360" rx="38" fill="#101a33" stroke="rgba(233,238,252,.18)"/>
+  <rect x="140" y="120" width="200" height="280" rx="26" fill="rgba(233,238,252,.08)"/>
+  <rect x="370" y="120" width="390" height="56" rx="18" fill="url(#g)"/>
+  <rect x="370" y="196" width="330" height="44" rx="14" fill="rgba(233,238,252,.10)"/>
+  <rect x="370" y="254" width="360" height="44" rx="14" fill="rgba(233,238,252,.10)"/>
+  <rect x="370" y="312" width="280" height="44" rx="14" fill="rgba(233,238,252,.10)"/>
+  <text x="120" y="112" fill="#e9eefc" font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="26" font-weight="700">App / AI Project Snapshot</text>
+  <text x="120" y="145" fill="#b9c4e6" font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="16">Placeholder graphic</text>
+</svg>

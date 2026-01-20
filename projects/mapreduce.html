@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>MapReduce Framework | Nauman</title>
+  <meta name="description" content="MapReduce-style framework project overview."/>
+  <link rel="stylesheet" href="../assets/style.css"/>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary">
+      <a class="brand" href="../index.html">Nauman</a>
+      <div class="nav-links">
+        <a href="../index.html">About</a>
+        <a href="../resume.html">Resume</a>
+        <a aria-current="page" href="index.html">Projects</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <p class="breadcrumbs"><a href="index.html">Projects</a> / MapReduce Framework</p>
+    <h1>MapReduce-style framework</h1>
+
+    <figure class="figure">
+      <img src="../assets/img/mapreduce.svg" alt="Abstract map → shuffle → reduce diagram" loading="lazy"/>
+      <figcaption>Diagram-style placeholder graphic. Replace with screenshots of your CLI output, worker logs, or architecture diagram.</figcaption>
+    </figure>
+
+    <section class="card">
+      <h2>What it is</h2>
+      <p class="prose">
+        A Python MapReduce runner inspired by Google’s original MapReduce model: a coordinator schedules work across
+        multiple workers, streams intermediate results, and re-runs tasks on failure. The design prioritizes reliability
+        (fault tolerance) and throughput (parallelism).
+      </p>
+    </section>
+
+    <section class="subgrid" style="margin-top:14px">
+      <section class="card">
+        <h2>Tech stack</h2>
+        <ul class="tight">
+          <li>Python</li>
+          <li>Threads + processes for concurrency</li>
+          <li>Socket networking</li>
+          <li>Structured logging for debugging</li>
+        </ul>
+      </section>
+      <section class="card">
+        <h2>Highlights</h2>
+        <ul class="tight">
+          <li>Worker registration and heartbeats</li>
+          <li>Task scheduling with retries on failure</li>
+          <li>Map output partitioning and reduce aggregation</li>
+          <li>Deterministic behavior for testing</li>
+        </ul>
+      </section>
+    </section>
+
+    <section class="card" style="margin-top:14px">
+      <h2>Why it matters</h2>
+      <p class="prose">
+        Distributed execution is easy to demo and hard to make dependable. This project demonstrates comfort with:
+        coordination protocols, race conditions, and designing APIs that make it easy to plug in new MapReduce “jobs.”
+      </p>
+      <p class="note">
+        Tip: If you have a repo for this, add it here. If not, you can still include screenshots of your architecture diagram
+        and a sample run (before/after fault injection).
+      </p>
+      <p>
+        <a class="button" href="#">GitHub repo (optional)</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="note">© <span id="y"></span> Nauman.</p>
+    </div>
+  </footer>
+
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Nauman | Portfolio</title>
+  <meta name="description" content="Personal portfolio website (assignment version)."/>
+  <link rel="stylesheet" href="assets/style.css"/>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary">
+      <a class="brand" href="index.html">Nauman</a>
+      <div class="nav-links">
+        <a aria-current="page" href="index.html">About</a>
+        <a href="resume.html">Resume</a>
+        <a href="projects/index.html">Projects</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <section class="hero">
+      <div>
+        <span class="kicker">Computer Science • Systems + Applied ML</span>
+        <h1>Building reliable software that connects to the real world.</h1>
+        <p class="prose">
+          I’m Nauman, a Computer Science student who enjoys mixing software engineering with hands-on systems.
+          My favorite projects sit at the boundary between code and physical constraints: real-time data pipelines,
+          interactive applications, and tooling that makes teams faster.
+        </p>
+        <div class="buttons">
+          <a class="button" href="projects/index.html">Explore projects</a>
+          <a class="button" href="resume.html">View resume</a>
+        </div>
+        <p class="note">
+          Privacy note: this is an assignment-safe version of my site. It intentionally omits personal identifiers
+          (last name, phone, email, photos). If you want this to double as your job-search site, replace the placeholder
+          links in the footer.
+        </p>
+      </div>
+
+      <div class="card" aria-label="Quick summary">
+        <h2 style="margin-top:0">What I focus on</h2>
+        <ul class="tight">
+          <li><strong>Full-stack + tooling:</strong> building clean interfaces and robust backends</li>
+          <li><strong>Distributed / concurrent systems:</strong> workers, queues, threads, fault tolerance</li>
+          <li><strong>Applied ML workflows:</strong> data collection, evaluation, and pragmatic deployment</li>
+        </ul>
+        <hr class="sep"/>
+        <p class="prose" style="margin-bottom:0">
+          On this site, you’ll find a curated set of projects with short writeups that explain the problem,
+          my contributions, and what I learned.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Highlights</h2>
+      <div class="cards">
+        <article class="card">
+          <h3 style="margin-top:0">VR training experiences</h3>
+          <p class="prose">Built Unity mechanics and developer tooling to support a VR experience with procedural content.</p>
+          <p><a href="projects/dosebusters.html">DoseBusters →</a></p>
+        </article>
+        <article class="card">
+          <h3 style="margin-top:0">AI-powered navigation assistant</h3>
+          <p class="prose">Shipped a chatbot + Flutter UI for campus navigation using public building and course data.</p>
+          <p><a href="projects/m-navigate.html">M-Navigate →</a></p>
+        </article>
+        <article class="card">
+          <h3 style="margin-top:0">MapReduce-style framework</h3>
+          <p class="prose">Implemented a Python MapReduce runner with fault tolerance, sockets, and worker coordination.</p>
+          <p><a href="projects/mapreduce.html">Distributed MapReduce →</a></p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <strong>Nauman</strong>
+          <p class="note" style="margin-top:6px">Assignment-safe portfolio website built with plain HTML/CSS.</p>
+        </div>
+        <div>
+          <strong>Optional links</strong>
+          <ul class="tight" style="margin-top:8px">
+            <li><a href="https://github.com/Naumanbo">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/nauman-siddiqui-3870a4241/">LinkedIn</a></li>
+          </ul>
+        </div>
+        <div>
+          <strong>Navigation</strong>
+          <ul class="tight" style="margin-top:8px">
+            <li><a href="index.html">About</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="projects/index.html">Projects</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="note" style="margin-top:18px">© <span id="y"></span> Nauman. Built for GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

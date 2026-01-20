@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7aa7ff" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#7dffda" stop-opacity="0.85"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="500" fill="#0b1020"/>
+  <text x="90" y="110" fill="#e9eefc" font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="26" font-weight="700">Distributed Systems Snapshot</text>
+  <text x="90" y="142" fill="#b9c4e6" font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="16">MapReduce-style framework (placeholder graphic)</text>
+  <rect x="120" y="190" width="200" height="90" rx="18" fill="rgba(233,238,252,.08)" stroke="rgba(233,238,252,.18)"/>
+  <rect x="350" y="190" width="200" height="90" rx="18" fill="rgba(233,238,252,.08)" stroke="rgba(233,238,252,.18)"/>
+  <rect x="580" y="190" width="200" height="90" rx="18" fill="rgba(233,238,252,.08)" stroke="rgba(233,238,252,.18)"/>
+  <text x="170" y="244" fill="#e9eefc" font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="18" font-weight="600">Map</text>
+  <text x="420" y="244" fill="#e9eefc" font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="18" font-weight="600">Shuffle</text>
+  <text x="633" y="244" fill="#e9eefc" font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="18" font-weight="600">Reduce</text>
+  <path d="M320 235 L350 235" stroke="url(#g)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M550 235 L580 235" stroke="url(#g)" stroke-width="6" stroke-linecap="round"/>
+  <rect x="120" y="320" width="660" height="70" rx="18" fill="url(#g)" opacity="0.20"/>
+  <text x="140" y="362" fill="#e9eefc" font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="16">Fault tolerance • concurrency • sockets • worker coordination</text>
+</svg>
